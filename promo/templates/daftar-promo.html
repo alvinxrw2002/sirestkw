@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block meta %}
+<title>Daftar Promo</title>
+<style>
+    th, td {
+    padding: 10px;
+    }
+</style>
+{% endblock meta %}
+
+{% block content %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="{% static 'js/promo/DaftarPromo.js' %}"></script>
+
+<h1>Daftar Promo</h1>
+<table class="table table-hover table-striped-columns">
+    <tr>
+        <th>
+            <a href="daftar-promo/buat-promo" class="btn btn-success">Buat Promo</a>
+        </th>
+    </tr>
+    <tr class="table-primary">
+        <th>Nama Promosi</th>
+        <th>Jenis Promosi</th>
+        <th>Aksi</th>
+    </tr>
+    {% for promo in promos %}
+    <tr id="{{promo.promo_id}}">
+        <th id="{{ promo.promo_id }}-nama" class="table-warning">{{promo.promo_name}}</th>
+        <th id="{{ promo.promo_id }}-jenis" class="table-danger">{{promo.promo_type}}</th>
+        <th class="table-dark">
+            <button class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#detailModal" onclick="getDetail('{{promo.promo_id}}', '{{promo.promo_type}}', '{{promo.promo_name}}')">detail</button>
+            <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#ubahPromoModal" onclick="addEntry('{{promo.promo_id}}', '{{promo.promo_type}}', '{{promo.promo_name}}')">ubah</button>
+            <button class="btn btn-outline-danger" onclick="hapus('{{promo.promo_id}}')">hapus</button>
+        </th>
+    </tr>
+    {% endfor %}
+</table>
+
+<!-- Modal untuk melihat detail -->
+<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="detailModalLabel">Detail Promosi</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="detailModalBody" class="modal-body"></div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal untuk mengubah promo -->
+<div class="modal fade" id="ubahPromoModal" tabindex="-1" aria-labelledby="ubahPromoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="ubahPromoModalLabel">Form Ubah Promosi</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="form-ubah-promo" method="POST">
+                    {% csrf_token %}
+
+                </form>
+            </div>
+            <div id="ubahModalFooter" class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

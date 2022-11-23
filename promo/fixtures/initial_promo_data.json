@@ -1,0 +1,322 @@
+[
+    {
+        "model": "promo.promo",
+        "pk": "PRM-1",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Promo awal tahun",
+            "discount": 25
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-2",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Airoi ldwk rvmjx",
+            "discount": 25
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-3",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Nkhej xoqa cozml",
+            "discount": 40
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-4",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Xtldu cfhw xmysp",
+            "discount": 35
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-5",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Sdhkf fhee ziqtr",
+            "discount": 15
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-6",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Hoeou kpzf lbvly",
+            "discount": 45
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-7",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Lvpyi stkr rcbwa",
+            "discount": 25
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-8",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Rycmi ghya spzpk",
+            "discount": 45
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-9",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Imuhk relj psdum",
+            "discount": 45
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-10",
+        "fields": {
+            "promo_type": "Promo Hari Spesial",
+            "promo_name": "Aooij ppvh yymdx",
+            "discount": 5
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-11",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 1",
+            "discount": 5
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-12",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 2",
+            "discount": 10
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-13",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 3",
+            "discount": 15
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-14",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 4",
+            "discount": 20
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-15",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 5",
+            "discount": 25
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-16",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 6",
+            "discount": 30
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-17",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 7",
+            "discount": 35
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-18",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 8",
+            "discount": 40
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-19",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 9",
+            "discount": 45
+        }
+    },
+    {
+        "model": "promo.promo",
+        "pk": "PRM-20",
+        "fields": {
+            "promo_type": "Promo Minimum Transaksi",
+            "promo_name": "Promo min. 10",
+            "discount": 50
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-1",
+        "fields": {
+            "promo_date": "2022-01-01"
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-2",
+        "fields": {
+            "promo_date": "2022-02-22"
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-3",
+        "fields": {
+            "promo_date": "2022-03-17"
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-4",
+        "fields": {
+            "promo_date": "2022-03-04"
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-5",
+        "fields": {
+            "promo_date": "2021-12-22"
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-6",
+        "fields": {
+            "promo_date": "2022-02-05"
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-7",
+        "fields": {
+            "promo_date": "2022-02-08"
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-8",
+        "fields": {
+            "promo_date": "2022-01-01"
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-9",
+        "fields": {
+            "promo_date": "2022-05-15"
+        }
+    },
+    {
+        "model": "promo.specialdaypromo",
+        "pk": "PRM-10",
+        "fields": {
+            "promo_date": "2022-07-13"
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-11",
+        "fields": {
+            "minimum_transaction": 1
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-12",
+        "fields": {
+            "minimum_transaction": 2
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-13",
+        "fields": {
+            "minimum_transaction": 3
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-14",
+        "fields": {
+            "minimum_transaction": 4
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-15",
+        "fields": {
+            "minimum_transaction": 5
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-16",
+        "fields": {
+            "minimum_transaction": 6
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-17",
+        "fields": {
+            "minimum_transaction": 7
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-18",
+        "fields": {
+            "minimum_transaction": 8
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-19",
+        "fields": {
+            "minimum_transaction": 9
+        }
+    },
+    {
+        "model": "promo.minimumtransactionpromo",
+        "pk": "PRM-20",
+        "fields": {
+            "minimum_transaction": 10
+        }
+    }
+]

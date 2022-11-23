@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block meta %}
+<title>Buat Promo Minimum Transaksi</title>
+<style>
+    th, td {
+        padding: 10px;
+    }
+</style>
+{% endblock meta %}
+
+{% block content %}
+
+<div class="d-flex align-items-center justify-content-center">
+    <div>
+        <h1>Form Promo Minimum Transaksi</h1>
+        <form method="POST" action="">
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }}
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Simpan" class="btn btn-outline-primary"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+{% endblock content %}
